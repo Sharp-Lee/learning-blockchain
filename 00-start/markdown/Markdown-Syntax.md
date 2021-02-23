@@ -1,18 +1,10 @@
----
-layout:   post
-title:    Markdown-Syntax
-date:     2021-02-22
-excerpt:  "Markdown基础语法示例"
-tags:     [markdown, blockchain learn]
-comments: true
----
 
-## 基本语法
+# 基本语法
 
 **工欲善其事,必先利其器。**  
 > [Markdown](http://markdown.p2hp.com/) 是一种轻量级标记语言，可以使用它来格式化几乎任何文档，是写博客，做记录的最佳选择。
 
-### 标题
+## 标题
 
 >要创建标题，请#在单词或短语的前面添加数字符号（）。您使用的数字符号的数量应与标题级别相对应。例如，要创建标题级别三（\<h3>），请使用三个数字符号（例如### My Header）。
 
@@ -25,7 +17,7 @@ comments: true
 | ##### Heading level 5 | <font color=Black size=2>Heading level 5</font> |
 | ###### Heading level 6 | <font color=Black size=1>Heading level 6</font> |
 
-### 段落
+## 段落
 
 >要创建段落，请使用空白行分隔一行或多行文本。您不应缩进带有空格或制表符的段落。
 
@@ -33,7 +25,7 @@ comments: true
 | :------ | :------- |
 | <p>I really like using Markdown.</p> <p>I think I'll use it to format all of my documents from now on.</p> | <p>I really like using Markdown.</p> <p>I think I'll use it to format all of my documents from now on.</p> |
 
-### 换行
+## 换行
 
 > 要创建换行符（\<br>），请以两个或多个空格结束一行，然后键入return。
 
@@ -41,7 +33,7 @@ comments: true
 | :------ | :------- |
 | This is the first line.<br> And this is the second line. | This is the first line.<br> And this is the second line. |
 
-### 着重
+## 着重
 
 > 您可以通过使文本变为粗体或斜体来增加着重。
 
@@ -54,7 +46,7 @@ comments: true
 | ***粗体和斜体*** | \*\*\*bold_italicized text*** | ***bold_italicized text*** |
 | ___粗体和斜体___ | \_\_\_bold_italicized text___ | ___bold_italicized text___ |
 
-### 块引用
+## 块引用
 
 > 要创建blockquote，请>在段落前面添加一个 `>`。
 
@@ -64,7 +56,7 @@ comments: true
 
 > Dorothy followed her through many of the beautiful rooms in her castle.
 
-### 具有其他元素的块引用
+## 具有其他元素的块引用
 
 > 块引用可以包含其他Markdown格式的元素。并非所有元素都可以使用-您需要进行实验以查看哪些元素有效。  
 
@@ -79,7 +71,7 @@ comments: true
 ```
 
 呈现的输出如下所示：
-> #### The quarterly results look great!
+> ### The quarterly results look great!
 > 
 > - Revenue was off the chart.
 > - Profits were higher than ever.
@@ -87,9 +79,9 @@ comments: true
 > 
 > *Everything* is going according to **plan**.
 
-### 列表
+## 列表
 
-#### 有序列表
+### 有序列表
 
 > 要创建有序列表，请在订单项中添加数字和句点。数字不必按数字顺序排列，但列表应以数字开头。
 
@@ -119,7 +111,7 @@ comments: true
    2. Indented item
 5.  Eighth item
 
-#### 无序列表
+### 无序列表
 
 > 要创建无序列表，请在订单项前添加破折号（-），星号（*）或加号（+）。缩进一个或多个项目以创建嵌套列表。
 
@@ -149,11 +141,11 @@ comments: true
   * Indented item
 * Eighth item
 
-### 在列表中添加元素
+## 在列表中添加元素
 
 > 要在保留列表连续性的同时在列表中添加另一个元素，请将该元素缩进四个空格或一个制表符，如以下示例所示。
 
-#### 段落
+### 段落
 
 ```text
 * This is the first list item.
@@ -173,7 +165,7 @@ comments: true
 
 * And here's the third list item.
 
-#### 块引用
+### 块引用
 
 ```text
 * This is the first list item.
@@ -193,7 +185,7 @@ comments: true
 
 * And here's the third list item.
 
-#### 插入代码块
+### 插入代码块
 
 > 代码块通常缩进四个空格或一个制表符。当它们在列表中时，将它们缩进八个空格或两个选项卡，也可以使用围栏代码块，既` ```代码块``` `。
 
@@ -220,7 +212,7 @@ comments: true
 
 3. Update the title to match the name of your website.
 
-#### 插入图片
+### 插入图片
 
 ```text
 1. Open the file containing the Linux mascot.
@@ -241,7 +233,7 @@ comments: true
 3. Close the file.
 
 
-### 代码
+## 代码
 
 > 要将单词或短语表示为代码，请将其括在勾号（`）中。
 
@@ -249,7 +241,7 @@ comments: true
 | :----: | :------:|
 | At the command prompt, type \`nano`. | At the command prompt, type `nano` |
 
-### 转义刻度线
+## 转义刻度线
 
 > 如果要表示为代码的单词或短语包含一个或多个刻度线，可以通过将单词或短语括在双刻度线（``）中来对其进行转义。
 
@@ -257,7 +249,7 @@ comments: true
 | :----: | :------:|
 | \`\`Use \`code` in your Markdown file.``. | ``Use `code` in your Markdown file.`` |
 
-### 代码块
+## 代码块
 
 > 要创建代码块，请在代码块的每一行缩进至少四个空格或一个制表符，也可以使用围栏代码块，既` ```代码块``` `。
 
@@ -276,7 +268,7 @@ comments: true
 </html>
 ```
 
-### 水平线
+## 水平线
 
 > 要创建水平线***，请单独在一行上使用三个或更多的星号（），破折号（---）或下划线（___）。
 
@@ -292,7 +284,7 @@ ___
 ---
 ___
 
-### 链接
+## 链接
 
 > 要创建链接，请将链接文本括在方括号（例如[Duck Duck Go]）中，然后立即在URL后面加上括号（例如(https://duckduckgo.com)）中的URL 。
 
@@ -304,7 +296,7 @@ My favorite search engine is [Duck Duck Go](https://duckduckgo.com).
 
 My favorite search engine is [Duck Duck Go](https://duckduckgo.com).
 
-### 添加标题
+## 添加标题
 
 > 您可以选择为链接添加标题。当用户将鼠标悬停在链接上时，这将显示为工具提示。要添加标题，请将其括在URL后面的括号中。
 
@@ -316,7 +308,7 @@ My favorite search engine is [Duck Duck Go](https://duckduckgo.com "The best sea
 
 My favorite search engine is [Duck Duck Go](https://duckduckgo.com "The best search engine for privacy").
 
-### 网址和电子邮件地址
+## 网址和电子邮件地址
 
 > 要将URL或电子邮件地址快速转换为链接，请将其括在尖括号中。
 
@@ -330,7 +322,7 @@ My favorite search engine is [Duck Duck Go](https://duckduckgo.com "The best sea
 <https://markdown.p2hp.com>  
 <fake@example.com>
 
-### 格式化链接
+## 格式化链接
 
 > 为了强调链接，请在方括号和括号之前和之后添加星号。
 
@@ -344,11 +336,11 @@ This is the *[Markdown Guide](https://markdown.p2hp.com)*.
 I love supporting the **[EFF](https://eff.org)**.  
 This is the *[Markdown Guide](https://markdown.p2hp.com)*.
 
-### 参考样式链接
+## 参考样式链接
 
 > 引用样式链接是一种特殊的链接，它使URL在Markdown中更易于显示和阅读。引用样式的链接分为两部分：与文本保持内联的部分以及在文件中其他位置存储的部分，以使文本易于阅读。
 
-#### 格式化链接的第一部分
+### 格式化链接的第一部分
 
 参考样式链接的第一部分使用两组括号进行格式化。第一组方括号包围应显示为链接的文本。第二组括号显示了一个标签，该标签用于指向您存储在文档其他位置的链接。
 
@@ -361,7 +353,7 @@ This is the *[Markdown Guide](https://markdown.p2hp.com)*.
 [hobbit-hole] [1]
 ```
 
-#### 格式化链接的第二部分
+### 格式化链接的第二部分
 
 引用样式链接的第二部分使用以下属性设置格式：
 
@@ -383,7 +375,7 @@ This is the *[Markdown Guide](https://markdown.p2hp.com)*.
 
 您可以将链接的第二部分放在Markdown文档中的任何位置。有些人将它们放在出现的段落之后，而其他人则将它们放在文档的末尾（例如尾注或脚注）。
 
-#### 将零件放在一起的示例
+### 将零件放在一起的示例
 
 假设您添加一个URL作为到段落的标准URL链接，并且在Markdown中看起来像这样：
 
@@ -411,7 +403,7 @@ eat: it was a [hobbit-hole][1], and that means comfort.
 
 [1]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> "Hobbit lifestyles"
 
-### 图片
+## 图片
 
 > 要添加图像，请添加感叹号（!），然后在括号中添加替代文本，并在括号中添加图像资源的路径或URL。您可以选择在括号中的URL之后添加标题。
 
@@ -423,7 +415,7 @@ eat: it was a [hobbit-hole][1], and that means comfort.
 
 ![Philadelphia's Magic Gardens. This place was so cool!](./../../images/00-start/markdown/philly-magic-garden.jpg "Philadelphia's Magic Gardens")
 
-#### 链接图像
+### 链接图像
 
 要向图像添加链接，请将图像的Markdown括在方括号中，然后在括号中添加链接。
 
@@ -435,7 +427,7 @@ eat: it was a [hobbit-hole][1], and that means comfort.
 
 [![An old rock in the desert](./../../images/00-start/markdown/shiprock.jpg "Shiprock, New Mexico by Beau Rogers")](https://www.flickr.com/photos/beaurogers/31833779864/in/photolist-Qv3rFw-34mt9F-a9Cmfy-5Ha3Zi-9msKdv-o3hgjr-hWpUte-4WMsJ1-KUQ8N-deshUb-vssBD-6CQci6-8AFCiD-zsJWT-nNfsgB-dPDwZJ-bn9JGn-5HtSXY-6CUhAL-a4UTXB-ugPum-KUPSo-fBLNm-6CUmpy-4WMsc9-8a7D3T-83KJev-6CQ2bK-nNusHJ-a78rQH-nw3NvT-7aq2qf-8wwBso-3nNceh-ugSKP-4mh4kh-bbeeqH-a7biME-q3PtTf-brFpgb-cg38zw-bXMZc-nJPELD-f58Lmo-bXMYG-bz8AAi-bxNtNT-bXMYi-bXMY6-bXMYv)
 
-### 转义字符
+## 转义字符
 
 > 要显示原义字符，否则将用于设置Markdown文档中的文本格式\，请在字符前面添加反斜杠（）。
 
