@@ -3,7 +3,7 @@
 
 ## GitFlow说明
 
-![GitFlow](../../images/gitflow.png)
+![GitFlow](./../../images/00-start/git/gitflow.png)
 
 * main分支，即主分支。任何项目都必须有个这个分支。对项目进行tag或发布版本等操作，都必须在该分支上进行。
 
